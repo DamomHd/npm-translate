@@ -1,0 +1,24 @@
+{
+  "name": "hd-translate",
+  "version": "1.0.1",
+  "description": "脚本翻译工具",
+  "main": "index.js",
+  "bin": {
+    "translate": "./config/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "crypto": "^1.0.1",
+    "crypto-js": "^4.1.1",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "say": "^0.16.0",
+    "yargs": "^17.1.1"
+  }
+}
